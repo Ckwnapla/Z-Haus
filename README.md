@@ -7,7 +7,9 @@ Optional Discord RPC module for clients:
 1. https://github.com/YuRaNnNzZZ/gmcl_steamrichpresencer/releases/tag/2023.07.20
 2. https://github.com/fluffy-servers/gmod-discord-rpc/releases/tag/1.2.1
 
-At the time of forking, the Z-City repo was version 1.04
+The current version of Z-Haus Repo is 0.01
+
+At the time of forking, the version of Z-City repo was 1.04
 
 ## The numbers in the version number indicate:
 A.Bcc -> 1.000
