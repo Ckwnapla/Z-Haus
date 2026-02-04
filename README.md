@@ -1,5 +1,5 @@
-# Z-City
-Z-City is a GMod addon which modifies character damage and controls. Z-City also comes with its own weapon base and a gamemode
+# Z-Haus
+Z-Haus is a direct branch of it's originator, Z-City, built for and by The Madhaus community.
 
 https://github.com/uzelezz123/8bit_zcity - 8bit module (compiled version is in lua/bin)
 
