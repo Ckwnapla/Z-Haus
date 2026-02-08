@@ -340,8 +340,8 @@ local vecIdleL = Vector(0, 1, 0.5)
 
 local ang180, ang1, ang2 = Angle(0,180,0), Angle(-110,-90,0), Angle(-70,-90,0)
 function SWEP:SetHandPos(noset)
-	if CLIENT and self.IsLocal and not self:IsLocal() then return end
 	local ply = self:GetOwner()
+	if CLIENT and self.IsLocal and not self:IsLocal() and IsValid(ply) and ply.PlayerClassName == "headcrabzombie" then return end
 
 	if not IsValid(ply) or not IsValid(self.worldModel) then return end
 	if IsValid(ply) and (not ply.shouldTransmit or ply.NotSeen) then return end
